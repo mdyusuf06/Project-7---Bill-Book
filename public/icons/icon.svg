@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#065f46" />
+    </linearGradient>
+    <linearGradient id="paperGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f1f5f9" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+  <path
+    d="M140 96 C140 82.7 150.7 72 164 72 H348 C361.3 72 372 82.7 372 96 V424 L344 402 L316 424 L288 402 L260 424 L232 402 L204 424 L176 402 L140 424 Z"
+    fill="url(#paperGrad)"
+  />
+  <rect x="176" y="122" width="160" height="18" rx="9" fill="#0f172a" opacity="0.85" />
+  <rect x="176" y="158" width="110" height="12" rx="6" fill="#64748b" opacity="0.55" />
+  <line x1="176" y1="196" x2="336" y2="196" stroke="#cbd5e1" stroke-width="4" stroke-dasharray="10 8" />
+  <text
+    x="256"
+    y="310"
+    text-anchor="middle"
+    font-family="system-ui, -apple-system, sans-serif"
+    font-weight="800"
+    font-size="136"
+    fill="#059669"
+  >&#8377;</text>
+  <rect x="176" y="346" width="160" height="14" rx="7" fill="#059669" opacity="0.22" />
+</svg>
+
